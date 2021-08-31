@@ -1,0 +1,5 @@
+for i,v in pairs(owner.Character:GetChildren()) do
+	if v.ClassName == "Part" then
+		v.CanCollide = false
+	end
+end
