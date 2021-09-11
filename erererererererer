@@ -1,5 +1,4 @@
 
-
 mas = owner.Character
 Model0 = Instance.new("Model")
 Part1 = Instance.new("Part")
@@ -358,6 +357,9 @@ owner.Chatted:Connect(function(msg)
 		sound:Play()
 	end
 end)
+
+
+
 
 
 
