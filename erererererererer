@@ -1,4 +1,5 @@
 
+
 mas = owner.Character
 Model0 = Instance.new("Model")
 Part1 = Instance.new("Part")
@@ -39,7 +40,7 @@ Part1.Size = Vector3.new(0.049999952316284, 0.050000000745058, 0.049999952316284
 Part1.BottomSurface = Enum.SurfaceType.Smooth
 Part1.TopSurface = Enum.SurfaceType.Smooth
 ParticleEmitter2.Parent = Part1
-ParticleEmitter2.Color = ColorSequence.new(Color3.new(0.321569, 0.592157, 1),Color3.new(0.321569, 0.592157, 1))
+ParticleEmitter2.Color = ColorSequence.new(Color3.new(0.25098, 0, 1),Color3.new(0.25098, 0, 1))
 ParticleEmitter2.LightEmission = 1
 ParticleEmitter2.LightInfluence = 1
 ParticleEmitter2.Texture = "http://www.roblox.com/asset/?id=241779220"
@@ -60,7 +61,7 @@ Part3.Size = Vector3.new(0.049999952316284, 0.050000000745058, 0.049999952316284
 Part3.BottomSurface = Enum.SurfaceType.Smooth
 Part3.TopSurface = Enum.SurfaceType.Smooth
 ParticleEmitter4.Parent = Part3
-ParticleEmitter4.Color = ColorSequence.new(Color3.new(0.321569, 0.592157, 1),Color3.new(0.321569, 0.592157, 1))
+ParticleEmitter4.Color = ColorSequence.new(Color3.new(0.25098, 0, 1),Color3.new(0.25098, 0, 1))
 ParticleEmitter4.LightEmission = 1
 ParticleEmitter4.LightInfluence = 1
 ParticleEmitter4.Texture = "http://www.roblox.com/asset/?id=241779220"
@@ -81,7 +82,7 @@ Part5.Size = Vector3.new(0.049999952316284, 0.050000000745058, 0.049999952316284
 Part5.BottomSurface = Enum.SurfaceType.Smooth
 Part5.TopSurface = Enum.SurfaceType.Smooth
 ParticleEmitter6.Parent = Part5
-ParticleEmitter6.Color = ColorSequence.new(Color3.new(0.321569, 0.592157, 1),Color3.new(0.321569, 0.592157, 1))
+ParticleEmitter6.Color = ColorSequence.new(Color3.new(0.25098, 0, 1),Color3.new(0.25098, 0, 1))
 ParticleEmitter6.LightEmission = 1
 ParticleEmitter6.LightInfluence = 1
 ParticleEmitter6.Texture = "http://www.roblox.com/asset/?id=241779220"
@@ -102,7 +103,7 @@ Part7.Size = Vector3.new(0.049999952316284, 0.050000000745058, 0.049999952316284
 Part7.BottomSurface = Enum.SurfaceType.Smooth
 Part7.TopSurface = Enum.SurfaceType.Smooth
 ParticleEmitter8.Parent = Part7
-ParticleEmitter8.Color = ColorSequence.new(Color3.new(0.321569, 0.592157, 1),Color3.new(0.321569, 0.592157, 1))
+ParticleEmitter8.Color = ColorSequence.new(Color3.new(0.25098, 0, 1),Color3.new(0.25098, 0, 1))
 ParticleEmitter8.LightEmission = 1
 ParticleEmitter8.LightInfluence = 1
 ParticleEmitter8.Texture = "http://www.roblox.com/asset/?id=241779220"
@@ -123,7 +124,7 @@ Part9.Size = Vector3.new(0.049999952316284, 0.050000000745058, 0.049999952316284
 Part9.BottomSurface = Enum.SurfaceType.Smooth
 Part9.TopSurface = Enum.SurfaceType.Smooth
 ParticleEmitter10.Parent = Part9
-ParticleEmitter10.Color = ColorSequence.new(Color3.new(0.321569, 0.592157, 1),Color3.new(0.321569, 0.592157, 1))
+ParticleEmitter10.Color = ColorSequence.new(Color3.new(0.25098, 0, 1),Color3.new(0.25098, 0, 1))
 ParticleEmitter10.LightEmission = 1
 ParticleEmitter10.LightInfluence = 1
 ParticleEmitter10.Texture = "http://www.roblox.com/asset/?id=241779220"
@@ -144,7 +145,7 @@ Part11.Size = Vector3.new(0.049999952316284, 0.050000000745058, 0.04999995231628
 Part11.BottomSurface = Enum.SurfaceType.Smooth
 Part11.TopSurface = Enum.SurfaceType.Smooth
 ParticleEmitter12.Parent = Part11
-ParticleEmitter12.Color = ColorSequence.new(Color3.new(0.321569, 0.592157, 1),Color3.new(0.321569, 0.592157, 1))
+ParticleEmitter12.Color = ColorSequence.new(Color3.new(0.25098, 0, 1),Color3.new(0.25098, 0, 1))
 ParticleEmitter12.LightEmission = 1
 ParticleEmitter12.LightInfluence = 1
 ParticleEmitter12.Texture = "http://www.roblox.com/asset/?id=241779220"
@@ -164,8 +165,9 @@ Part13.Transparency = 1
 Part13.Size = Vector3.new(0.049999952316284, 0.050000000745058, 0.049999952316284)
 Part13.BottomSurface = Enum.SurfaceType.Smooth
 Part13.TopSurface = Enum.SurfaceType.Smooth
+Color3.new(0.25098, 0, 1)
 ParticleEmitter14.Parent = Part13
-ParticleEmitter14.Color = ColorSequence.new(Color3.new(0.321569, 0.592157, 1),Color3.new(0.321569, 0.592157, 1))
+ParticleEmitter14.Color = ColorSequence.new(Color3.new(0.25098, 0, 1),Color3.new(0.25098, 0, 1))
 ParticleEmitter14.LightEmission = 1
 ParticleEmitter14.LightInfluence = 1
 ParticleEmitter14.Texture = "http://www.roblox.com/asset/?id=241779220"
@@ -186,7 +188,7 @@ Part15.Size = Vector3.new(0.049999952316284, 0.050000000745058, 0.04999995231628
 Part15.BottomSurface = Enum.SurfaceType.Smooth
 Part15.TopSurface = Enum.SurfaceType.Smooth
 ParticleEmitter16.Parent = Part15
-ParticleEmitter16.Color = ColorSequence.new(Color3.new(0.321569, 0.592157, 1),Color3.new(0.321569, 0.592157, 1))
+ParticleEmitter16.Color = ColorSequence.new(Color3.new(0.25098, 0, 1),Color3.new(0.25098, 0, 1))
 ParticleEmitter16.LightEmission = 1
 ParticleEmitter16.LightInfluence = 1
 ParticleEmitter16.Texture = "http://www.roblox.com/asset/?id=241779220"
@@ -295,11 +297,7 @@ end)
 local color = Color3.new(0,0,1)
 local speed = 3
 local waittime = speed/40
-
-for i,v in pairs(Model0:GetChildren()) do
-	for i,particle in pairs(v:GetChildren()) do
-		if particle:IsA("ParticleEmitter") then
-			particle.Rate = 30
+--[[
 			spawn(function()
 				while true do
 					for x=1,20 do
@@ -319,7 +317,12 @@ for i,v in pairs(Model0:GetChildren()) do
 					end
 				end
 			end)
-		end
+]]
+for i,v in pairs(Model0:GetChildren()) do
+	for i,particle in pairs(v:GetChildren()) do
+		if particle:IsA("ParticleEmitter") then
+			particle.Rate = 30
+		end	
 	end
 end
 
@@ -357,6 +360,7 @@ owner.Chatted:Connect(function(msg)
 		sound:Play()
 	end
 end)
+
 
 
 
