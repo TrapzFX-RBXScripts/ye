@@ -1,4 +1,5 @@
 
+
 mas = owner.Character
 Model0 = Instance.new("Model")
 Part1 = Instance.new("Part")
@@ -285,7 +286,7 @@ eventsize.OnServerEvent:Connect(function(player,loud)
 	for i,v in pairs(Model0:GetChildren()) do
 		for i,particle in pairs(v:GetChildren()) do
 			if particle:IsA("ParticleEmitter") then
-				particle.LightEmission = loud * 0.766
+				particle.LightEmission = loud * 0.716
 				particle.Transparency = NumberSequence.new(0.89375001192093 - loud * 0.1,0.76875001192093 - loud * 0.27 + 0.82,0.72500002384186 - loud * 0.27 + 0.82,0.61249995231628 - loud * 0.27 + 0.82,1 - loud * 0.27 + 0.82)
 			end
 		end
@@ -294,7 +295,7 @@ end)
 
 local color = Color3.new(0,0,1)
 local speed = 3
-local waittime = speed/60
+local waittime = speed/40
 
 for i,v in pairs(Model0:GetChildren()) do
 	for i,particle in pairs(v:GetChildren()) do
@@ -357,5 +358,7 @@ owner.Chatted:Connect(function(msg)
 		sound:Play()
 	end
 end)
+
+
 
 
