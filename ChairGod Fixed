@@ -1,0 +1,1111 @@
+print([[
+- * ~ Chair God ~ * -
+
+Made by:
+Para_meters#0586 --Aka. TrapzFX (userid)
+
+Commands:
+--LMB = Shoots a laser at the mouses position during the click (No Wait Before Shot)
+
+Quick note:
+
+--Please DM me if any errors occur during a roblox update. Thanks, TrapzFX.
+
+Update Log -- Latest Update: 9/22/2021 [
+ -Added LMB keybind. See commands above
+ -Fixed the HipHeight float so its less jittery
+]
+]])
+--next update log:
+--[[
+Commands:
+--LMB = Shoots a laser at the mouses position during the click (No Wait Before Shot)
+--W,S,A,D = Moving animation plays
+--R = Creates an explosion at the mouse target
+--E = Creates an explosion at the players HumanoidRootPart (Basically the torso's original position)
+
+Quick note:
+
+--Please DM me if any errors occur during a roblox update. Thanks, TrapzFX.
+
+Update Log -- Latest Update: 9/22/2021 [
+ -Added R, And E keybinds. See commands above
+]
+]]--
+mas = owner.Character
+Model0 = Instance.new("Model")
+Part1 = Instance.new("Part")
+WedgePart2 = Instance.new("WedgePart")
+Part3 = Instance.new("Part")
+Part4 = Instance.new("Part")
+WedgePart5 = Instance.new("WedgePart")
+Part6 = Instance.new("Part")
+Part7 = Instance.new("Part")
+Part8 = Instance.new("Part")
+WedgePart9 = Instance.new("WedgePart")
+WedgePart10 = Instance.new("WedgePart")
+Part11 = Instance.new("Part")
+Part12 = Instance.new("Part")
+Part13 = Instance.new("Part")
+Part14 = Instance.new("Part")
+Part15 = Instance.new("Part")
+Part16 = Instance.new("Part")
+Part17 = Instance.new("Part")
+Part18 = Instance.new("Part")
+Part19 = Instance.new("Part")
+Part20 = Instance.new("Part")
+Part21 = Instance.new("Part")
+Weld22 = Instance.new("Weld")
+Weld23 = Instance.new("Weld")
+Weld24 = Instance.new("Weld")
+Weld25 = Instance.new("Weld")
+Weld26 = Instance.new("Weld")
+Weld27 = Instance.new("Weld")
+Weld28 = Instance.new("Weld")
+Weld29 = Instance.new("Weld")
+Weld30 = Instance.new("Weld")
+Weld31 = Instance.new("Weld")
+Weld32 = Instance.new("Weld")
+Weld33 = Instance.new("Weld")
+Weld34 = Instance.new("Weld")
+Weld35 = Instance.new("Weld")
+Weld36 = Instance.new("Weld")
+Weld37 = Instance.new("Weld")
+Weld38 = Instance.new("Weld")
+Weld39 = Instance.new("Weld")
+Weld40 = Instance.new("Weld")
+Weld41 = Instance.new("Weld")
+Weld42 = Instance.new("Weld")
+Weld43 = Instance.new("Weld")
+Weld44 = Instance.new("Weld")
+Weld45 = Instance.new("Weld")
+Weld46 = Instance.new("Weld")
+Weld47 = Instance.new("Weld")
+Weld48 = Instance.new("Weld")
+Weld49 = Instance.new("Weld")
+Weld50 = Instance.new("Weld")
+Weld51 = Instance.new("Weld")
+Weld52 = Instance.new("Weld")
+Weld53 = Instance.new("Weld")
+Weld54 = Instance.new("Weld")
+Weld55 = Instance.new("Weld")
+Weld56 = Instance.new("Weld")
+Weld57 = Instance.new("Weld")
+Weld58 = Instance.new("Weld")
+Part59 = Instance.new("Part")
+Part60 = Instance.new("Part")
+Part61 = Instance.new("Part")
+Part62 = Instance.new("Part")
+Part63 = Instance.new("Part")
+Part64 = Instance.new("Part")
+Part65 = Instance.new("Part")
+Part66 = Instance.new("Part")
+Part67 = Instance.new("Part")
+WedgePart68 = Instance.new("WedgePart")
+Part69 = Instance.new("Part")
+Part70 = Instance.new("Part")
+Part71 = Instance.new("Part")
+Part72 = Instance.new("Part")
+Part73 = Instance.new("Part")
+Part74 = Instance.new("Part")
+Part75 = Instance.new("Part")
+Model0.Name = "Robotics"
+Model0.Parent = mas
+Part1.Name = "NeonPart"
+Part1.Parent = Model0
+Part1.CFrame = CFrame.new(-122.346184, 2.10238981, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part1.Position = Vector3.new(-122.34618377686, 2.1023898124695, -8.1400003433228)
+Part1.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part1.Size = Vector3.new(0.24855804443359, 0.061422068625689, 1.0614674091339)
+Part1.BottomSurface = Enum.SurfaceType.Smooth
+Part1.BrickColor = BrickColor.new("Electric blue")
+Part1.Material = Enum.Material.Neon
+Part1.TopSurface = Enum.SurfaceType.Smooth
+Part1.brickColor = BrickColor.new("Electric blue")
+WedgePart2.Name = "NeonParts"
+WedgePart2.Parent = Model0
+WedgePart2.CFrame = CFrame.new(-122.751266, 3.61965227, -8.41586113, -1, 0, 0, 0, -1, 0, 0, 0, 1)
+WedgePart2.Orientation = Vector3.new(0, 0, 180)
+WedgePart2.Position = Vector3.new(-122.75126647949, 3.6196522712708, -8.4158611297607)
+WedgePart2.Rotation = Vector3.new(0, 0, -180)
+WedgePart2.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+WedgePart2.Size = Vector3.new(1.1004694700241, 0.28546005487442, 0.55131977796555)
+WedgePart2.BottomSurface = Enum.SurfaceType.Smooth
+WedgePart2.BrickColor = BrickColor.new("Electric blue")
+WedgePart2.Material = Enum.Material.DiamondPlate
+WedgePart2.brickColor = BrickColor.new("Electric blue")
+Part3.Name = "NeonPart"
+Part3.Parent = Model0
+Part3.CFrame = CFrame.new(-122.439209, 2.10238981, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part3.Position = Vector3.new(-122.43920898438, 2.1023898124695, -8.1400003433228)
+Part3.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part3.Size = Vector3.new(0.062520645558834, 0.1968546807766, 1.0614674091339)
+Part3.BottomSurface = Enum.SurfaceType.Smooth
+Part3.BrickColor = BrickColor.new("Electric blue")
+Part3.Material = Enum.Material.Neon
+Part3.TopSurface = Enum.SurfaceType.Smooth
+Part3.brickColor = BrickColor.new("Electric blue")
+Part4.Name = "NeonPart"
+Part4.Parent = Model0
+Part4.CFrame = CFrame.new(-122.831985, 2.1242044, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part4.Position = Vector3.new(-122.83198547363, 2.1242043972015, -8.1400003433228)
+Part4.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part4.Size = Vector3.new(0.24625454843044, 0.071330562233925, 1.0614674091339)
+Part4.BottomSurface = Enum.SurfaceType.Smooth
+Part4.BrickColor = BrickColor.new("Electric blue")
+Part4.Material = Enum.Material.Neon
+Part4.TopSurface = Enum.SurfaceType.Smooth
+Part4.brickColor = BrickColor.new("Electric blue")
+WedgePart5.Name = "NeonParts"
+WedgePart5.Parent = Model0
+WedgePart5.CFrame = CFrame.new(-122.751266, 3.61965227, -7.86474562, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+WedgePart5.Orientation = Vector3.new(0, 180, 180)
+WedgePart5.Position = Vector3.new(-122.75126647949, 3.6196522712708, -7.8647456169128)
+WedgePart5.Rotation = Vector3.new(-180, 0, 0)
+WedgePart5.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+WedgePart5.Size = Vector3.new(1.1004694700241, 0.28546005487442, 0.55131977796555)
+WedgePart5.BottomSurface = Enum.SurfaceType.Smooth
+WedgePart5.BrickColor = BrickColor.new("Electric blue")
+WedgePart5.Material = Enum.Material.DiamondPlate
+WedgePart5.brickColor = BrickColor.new("Electric blue")
+Part6.Name = "NeonParts"
+Part6.Parent = Model0
+Part6.CFrame = CFrame.new(-122.751373, 3.90353274, -8.14000511, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part6.Position = Vector3.new(-122.75137329102, 3.903532743454, -8.1400051116943)
+Part6.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part6.Size = Vector3.new(1.100647687912, 0.29339185357094, 1.1016803979874)
+Part6.BottomSurface = Enum.SurfaceType.Smooth
+Part6.BrickColor = BrickColor.new("Electric blue")
+Part6.Material = Enum.Material.DiamondPlate
+Part6.TopSurface = Enum.SurfaceType.Smooth
+Part6.brickColor = BrickColor.new("Electric blue")
+Part7.Name = "NeonPart"
+Part7.Parent = Model0
+Part7.CFrame = CFrame.new(-122.751373, 3.44825363, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part7.Position = Vector3.new(-122.75137329102, 3.4482536315918, -8.1400003433228)
+Part7.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part7.Size = Vector3.new(1.1428326368332, 1.297224521637, 0.071306675672531)
+Part7.BottomSurface = Enum.SurfaceType.Smooth
+Part7.BrickColor = BrickColor.new("Electric blue")
+Part7.Material = Enum.Material.Neon
+Part7.TopSurface = Enum.SurfaceType.Smooth
+Part7.brickColor = BrickColor.new("Electric blue")
+Part8.Parent = Model0
+Part8.CFrame = CFrame.new(-122.751373, 3.19046879, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part8.Position = Vector3.new(-122.75137329102, 3.190468788147, -8.1400003433228)
+Part8.Color = Color3.new(0.105882, 0.164706, 0.207843)
+Part8.Size = Vector3.new(1.1195087432861, 0.86734402179718, 0.15324933826923)
+Part8.BottomSurface = Enum.SurfaceType.Smooth
+Part8.BrickColor = BrickColor.new("Black")
+Part8.Material = Enum.Material.DiamondPlate
+Part8.TopSurface = Enum.SurfaceType.Smooth
+Part8.brickColor = BrickColor.new("Black")
+WedgePart9.Parent = Model0
+WedgePart9.CFrame = CFrame.new(-122.751266, 3.701756, -8.42058372, -1, 0, 0, 0, -1, 0, 0, 0, 1)
+WedgePart9.Orientation = Vector3.new(0, 0, 180)
+WedgePart9.Position = Vector3.new(-122.75126647949, 3.7017560005188, -8.4205837249756)
+WedgePart9.Rotation = Vector3.new(0, 0, -180)
+WedgePart9.Color = Color3.new(0.105882, 0.164706, 0.207843)
+WedgePart9.Size = Vector3.new(1.1193274259567, 0.29035183787346, 0.56076735258102)
+WedgePart9.BottomSurface = Enum.SurfaceType.Smooth
+WedgePart9.BrickColor = BrickColor.new("Black")
+WedgePart9.Material = Enum.Material.DiamondPlate
+WedgePart9.brickColor = BrickColor.new("Black")
+WedgePart10.Parent = Model0
+WedgePart10.CFrame = CFrame.new(-122.751266, 3.701756, -7.86002445, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+WedgePart10.Orientation = Vector3.new(0, 180, 180)
+WedgePart10.Position = Vector3.new(-122.75126647949, 3.7017560005188, -7.8600244522095)
+WedgePart10.Rotation = Vector3.new(-180, 0, 0)
+WedgePart10.Color = Color3.new(0.105882, 0.164706, 0.207843)
+WedgePart10.Size = Vector3.new(1.1193274259567, 0.29035183787346, 0.56076735258102)
+WedgePart10.BottomSurface = Enum.SurfaceType.Smooth
+WedgePart10.BrickColor = BrickColor.new("Black")
+WedgePart10.Material = Enum.Material.DiamondPlate
+WedgePart10.brickColor = BrickColor.new("Black")
+Part11.Parent = Model0
+Part11.CFrame = CFrame.new(-122.751373, 3.99050117, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part11.Position = Vector3.new(-122.75137329102, 3.99050116539, -8.1400003433228)
+Part11.Color = Color3.new(0.105882, 0.164706, 0.207843)
+Part11.Size = Vector3.new(1.1195087432861, 0.29841947555542, 1.1205592155457)
+Part11.BottomSurface = Enum.SurfaceType.Smooth
+Part11.BrickColor = BrickColor.new("Black")
+Part11.Material = Enum.Material.DiamondPlate
+Part11.TopSurface = Enum.SurfaceType.Smooth
+Part11.brickColor = BrickColor.new("Black")
+Part12.Parent = Model0
+Part12.CFrame = CFrame.new(-122.750549, 3.32896066, -8.14000034, -0.707106709, -0.707106709, 0, 0.707106709, -0.707106709, 0, 0, 0, 1)
+Part12.Orientation = Vector3.new(0, 0, 135)
+Part12.Position = Vector3.new(-122.75054931641, 3.3289606571198, -8.1400003433228)
+Part12.Rotation = Vector3.new(0, 0, 135)
+Part12.Color = Color3.new(0.105882, 0.164706, 0.207843)
+Part12.Size = Vector3.new(0.2155896872282, 0.052599970251322, 1.14888215065)
+Part12.BottomSurface = Enum.SurfaceType.Smooth
+Part12.BrickColor = BrickColor.new("Black")
+Part12.Material = Enum.Material.Glass
+Part12.TopSurface = Enum.SurfaceType.Smooth
+Part12.brickColor = BrickColor.new("Black")
+Part13.Parent = Model0
+Part13.CFrame = CFrame.new(-122.751373, 3.34747219, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part13.Position = Vector3.new(-122.75137329102, 3.3474721908569, -8.1400003433228)
+Part13.Color = Color3.new(0.105882, 0.164706, 0.207843)
+Part13.Size = Vector3.new(1.0908393859863, 1.567479133606, 1.0908393859863)
+Part13.BottomSurface = Enum.SurfaceType.Smooth
+Part13.BrickColor = BrickColor.new("Black")
+Part13.Material = Enum.Material.Glass
+Part13.TopSurface = Enum.SurfaceType.Smooth
+Part13.brickColor = BrickColor.new("Black")
+Part14.Name = "NeonParts"
+Part14.Parent = Model0
+Part14.CFrame = CFrame.new(-122.751373, 3.33550382, -8.14000034, 0.707106769, -0.707106769, 0, 0.707106769, 0.707106769, 0, 0, 0, 1)
+Part14.Orientation = Vector3.new(0, 0, 45)
+Part14.Position = Vector3.new(-122.75137329102, 3.3355038166046, -8.1400003433228)
+Part14.Rotation = Vector3.new(0, 0, 45)
+Part14.Color = Color3.new(0.0156863, 0.686275, 0.92549)
+Part14.Size = Vector3.new(0.25340536236763, 0.25340536236763, 1.1218100786209)
+Part14.BottomSurface = Enum.SurfaceType.Smooth
+Part14.BrickColor = BrickColor.new("Cyan")
+Part14.Material = Enum.Material.SmoothPlastic
+Part14.TopSurface = Enum.SurfaceType.Smooth
+Part14.brickColor = BrickColor.new("Cyan")
+Part15.Name = "NeonPart"
+Part15.Parent = Model0
+Part15.CFrame = CFrame.new(-122.751373, 3.33550382, -8.14000034, 0.707106769, -0.707106769, 0, 0.707106769, 0.707106769, 0, 0, 0, 1)
+Part15.Orientation = Vector3.new(0, 0, 45)
+Part15.Position = Vector3.new(-122.75137329102, 3.3355038166046, -8.1400003433228)
+Part15.Rotation = Vector3.new(0, 0, 45)
+Part15.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part15.Size = Vector3.new(0.32953575253487, 0.32953575253487, 1.0984524488449)
+Part15.BottomSurface = Enum.SurfaceType.Smooth
+Part15.BrickColor = BrickColor.new("Electric blue")
+Part15.Material = Enum.Material.Neon
+Part15.TopSurface = Enum.SurfaceType.Smooth
+Part15.brickColor = BrickColor.new("Electric blue")
+Part16.Parent = Model0
+Part16.CFrame = CFrame.new(-122.751373, 2.38552022, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part16.Position = Vector3.new(-122.75137329102, 2.3855202198029, -8.1400003433228)
+Part16.Color = Color3.new(0.388235, 0.372549, 0.384314)
+Part16.Size = Vector3.new(1.0509475469589, 0.4444665312767, 1.0509475469589)
+Part16.BottomSurface = Enum.SurfaceType.Smooth
+Part16.BrickColor = BrickColor.new("Dark stone grey")
+Part16.Material = Enum.Material.DiamondPlate
+Part16.TopSurface = Enum.SurfaceType.Smooth
+Part16.brickColor = BrickColor.new("Dark stone grey")
+Part17.Parent = Model0
+Part17.CFrame = CFrame.new(-122.635033, 2.28061938, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part17.Position = Vector3.new(-122.63503265381, 2.2806193828583, -8.1400003433228)
+Part17.Color = Color3.new(0.388235, 0.372549, 0.384314)
+Part17.Size = Vector3.new(0.81827026605606, 0.65434366464615, 1.0509475469589)
+Part17.BottomSurface = Enum.SurfaceType.Smooth
+Part17.BrickColor = BrickColor.new("Dark stone grey")
+Part17.Material = Enum.Material.DiamondPlate
+Part17.TopSurface = Enum.SurfaceType.Smooth
+Part17.brickColor = BrickColor.new("Dark stone grey")
+Part18.Parent = Model0
+Part18.CFrame = CFrame.new(-122.430351, 2.4480505, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part18.Position = Vector3.new(-122.43035125732, 2.4480504989624, -8.1400003433228)
+Part18.Color = Color3.new(0.105882, 0.164706, 0.207843)
+Part18.Size = Vector3.new(0.44876599311829, 0.23143987357616, 1.0908393859863)
+Part18.BottomSurface = Enum.SurfaceType.Smooth
+Part18.BrickColor = BrickColor.new("Black")
+Part18.Material = Enum.Material.Glass
+Part18.TopSurface = Enum.SurfaceType.Smooth
+Part18.brickColor = BrickColor.new("Black")
+Part19.Name = "NeonPart"
+Part19.Parent = Model0
+Part19.CFrame = CFrame.new(-122.457619, 2.31722808, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part19.Position = Vector3.new(-122.45761871338, 2.3172280788422, -8.1400003433228)
+Part19.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part19.Size = Vector3.new(0.47339972853661, 0.072587959468365, 1.0614674091339)
+Part19.BottomSurface = Enum.SurfaceType.Smooth
+Part19.BrickColor = BrickColor.new("Electric blue")
+Part19.Material = Enum.Material.Neon
+Part19.TopSurface = Enum.SurfaceType.Smooth
+Part19.brickColor = BrickColor.new("Electric blue")
+Part20.Name = "NeonPart"
+Part20.Parent = Model0
+Part20.CFrame = CFrame.new(-122.686951, 2.47535491, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part20.Position = Vector3.new(-122.68695068359, 2.4753549098969, -8.1400003433228)
+Part20.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part20.Size = Vector3.new(0.061348829418421, 0.39077061414719, 1.0614674091339)
+Part20.BottomSurface = Enum.SurfaceType.Smooth
+Part20.BrickColor = BrickColor.new("Electric blue")
+Part20.Material = Enum.Material.Neon
+Part20.TopSurface = Enum.SurfaceType.Smooth
+Part20.brickColor = BrickColor.new("Electric blue")
+Part21.Name = "weld"
+Part21.Parent = Model0
+Part21.CFrame = CFrame.new(-122.751373, 2.99845648, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part21.Position = Vector3.new(-122.75137329102, 2.9984564781189, -8.1400003433228)
+Part21.Color = Color3.new(0.105882, 0.164706, 0.207843)
+Part21.Size = Vector3.new(0.0010338956490159, 0.0010339438449591, 0.0010339438449591)
+Part21.BottomSurface = Enum.SurfaceType.Smooth
+Part21.BrickColor = BrickColor.new("Black")
+Part21.Material = Enum.Material.Glass
+Part21.TopSurface = Enum.SurfaceType.Smooth
+Part21.brickColor = BrickColor.new("Black")
+Weld22.Name = "NeonPart"
+Weld22.Parent = Part21
+Weld22.C0 = CFrame.new(0.405189514, -0.896066666, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld22.Part0 = Part21
+Weld22.Part1 = Part1
+Weld22.part1 = Part1
+Weld23.Name = "NeonParts"
+Weld23.Parent = Part21
+Weld23.C0 = CFrame.new(0.000106811523, 0.621195793, -0.275860786, -1, 0, 0, 0, -1, 0, 0, 0, 1)
+Weld23.Part0 = Part21
+Weld23.Part1 = WedgePart2
+Weld23.part1 = WedgePart2
+Weld24.Name = "NeonPart"
+Weld24.Parent = Part21
+Weld24.C0 = CFrame.new(0.312164307, -0.896066666, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld24.Part0 = Part21
+Weld24.Part1 = Part3
+Weld24.part1 = Part3
+Weld25.Name = "NeonPart"
+Weld25.Parent = Part21
+Weld25.C0 = CFrame.new(-0.0806121826, -0.874252081, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld25.Part0 = Part21
+Weld25.Part1 = Part4
+Weld25.part1 = Part4
+Weld26.Name = "NeonParts"
+Weld26.Parent = Part21
+Weld26.C0 = CFrame.new(0.000106811523, 0.621195793, 0.275254726, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+Weld26.Part0 = Part21
+Weld26.Part1 = WedgePart5
+Weld26.part1 = WedgePart5
+Weld27.Name = "NeonParts"
+Weld27.Parent = Part21
+Weld27.C0 = CFrame.new(0, 0.905076265, -4.76837158e-06, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld27.Part0 = Part21
+Weld27.Part1 = Part6
+Weld27.part1 = Part6
+Weld28.Name = "NeonPart"
+Weld28.Parent = Part21
+Weld28.C0 = CFrame.new(0, 0.449797153, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld28.Part0 = Part21
+Weld28.Part1 = Part7
+Weld28.part1 = Part7
+Weld29.Name = "Part"
+Weld29.Parent = Part21
+Weld29.C0 = CFrame.new(0, 0.19201231, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld29.Part0 = Part21
+Weld29.Part1 = Part8
+Weld29.part1 = Part8
+Weld30.Name = "Wedge"
+Weld30.Parent = Part21
+Weld30.C0 = CFrame.new(0.000106811523, 0.703299522, -0.280583382, -1, 0, 0, 0, -1, 0, 0, 0, 1)
+Weld30.Part0 = Part21
+Weld30.Part1 = WedgePart9
+Weld30.part1 = WedgePart9
+Weld31.Name = "Wedge"
+Weld31.Parent = Part21
+Weld31.C0 = CFrame.new(0.000106811523, 0.703299522, 0.279975891, 1, 0, 0, 0, -1, 0, 0, 0, -1)
+Weld31.Part0 = Part21
+Weld31.Part1 = WedgePart10
+Weld31.part1 = WedgePart10
+Weld32.Name = "Part"
+Weld32.Parent = Part21
+Weld32.C0 = CFrame.new(0, 0.992044687, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld32.Part0 = Part21
+Weld32.Part1 = Part11
+Weld32.part1 = Part11
+Weld33.Name = "Part"
+Weld33.Parent = Part21
+Weld33.C0 = CFrame.new(0.000823974609, 0.330504179, 0, -0.707106709, -0.707106709, 0, 0.707106709, -0.707106709, 0, 0, 0, 1)
+Weld33.Part0 = Part21
+Weld33.Part1 = Part12
+Weld33.part1 = Part12
+Weld34.Name = "Part"
+Weld34.Parent = Part21
+Weld34.C0 = CFrame.new(0, 0.349015713, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld34.Part0 = Part21
+Weld34.Part1 = Part13
+Weld34.part1 = Part13
+Weld35.Name = "NeonParts"
+Weld35.Parent = Part21
+Weld35.C0 = CFrame.new(0, 0.337047338, 0, 0.707106769, -0.707106769, 0, 0.707106769, 0.707106769, 0, 0, 0, 1)
+Weld35.Part0 = Part21
+Weld35.Part1 = Part14
+Weld35.part1 = Part14
+Weld36.Name = "NeonPart"
+Weld36.Parent = Part21
+Weld36.C0 = CFrame.new(0, 0.337047338, 0, 0.707106769, -0.707106769, 0, 0.707106769, 0.707106769, 0, 0, 0, 1)
+Weld36.Part0 = Part21
+Weld36.Part1 = Part15
+Weld36.part1 = Part15
+Weld37.Name = "Part"
+Weld37.Parent = Part21
+Weld37.C0 = CFrame.new(0, -0.612936258, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld37.Part0 = Part21
+Weld37.Part1 = Part16
+Weld37.part1 = Part16
+Weld38.Name = "Part"
+Weld38.Parent = Part21
+Weld38.C0 = CFrame.new(0.116340637, -0.717837095, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld38.Part0 = Part21
+Weld38.Part1 = Part17
+Weld38.part1 = Part17
+Weld39.Name = "Part"
+Weld39.Parent = Part21
+Weld39.C0 = CFrame.new(0.321022034, -0.550405979, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld39.Part0 = Part21
+Weld39.Part1 = Part18
+Weld39.part1 = Part18
+Weld40.Name = "NeonPart"
+Weld40.Parent = Part21
+Weld40.C0 = CFrame.new(0.293754578, -0.681228399, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld40.Part0 = Part21
+Weld40.Part1 = Part19
+Weld40.part1 = Part19
+Weld41.Name = "NeonPart"
+Weld41.Parent = Part21
+Weld41.C0 = CFrame.new(0.0644226074, -0.523101568, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld41.Part0 = Part21
+Weld41.Part1 = Part20
+Weld41.part1 = Part20
+Weld42.Name = "NeonPart"
+Weld42.Parent = Part21
+Weld42.C0 = CFrame.new(0.120796204, -0.977940083, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld42.Part0 = Part21
+Weld42.Part1 = Part59
+Weld42.part1 = Part59
+Weld43.Name = "NeonPart"
+Weld43.Parent = Part21
+Weld43.C0 = CFrame.new(-0.0671768188, -0.923730612, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld43.Part0 = Part21
+Weld43.Part1 = Part60
+Weld43.part1 = Part60
+Weld44.Name = "NeonPart"
+Weld44.Parent = Part21
+Weld44.C0 = CFrame.new(-0.13193512, -0.698968172, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld44.Part0 = Part21
+Weld44.Part1 = Part61
+Weld44.part1 = Part61
+Weld45.Name = "NeonPart"
+Weld45.Parent = Part21
+Weld45.C0 = CFrame.new(-0.157928467, -0.46215415, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld45.Part0 = Part21
+Weld45.Part1 = Part62
+Weld45.part1 = Part62
+Weld46.Name = "Part"
+Weld46.Parent = Part21
+Weld46.C0 = CFrame.new(-0.0612411499, 0.392562151, 0, -0.707106709, -0.707106709, 0, 0.707106709, -0.707106709, 0, 0, 0, 1)
+Weld46.Part0 = Part21
+Weld46.Part1 = Part63
+Weld46.part1 = Part63
+Weld47.Name = "Part"
+Weld47.Parent = Part21
+Weld47.C0 = CFrame.new(-0.462882996, -0.671249628, 0.166767597, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld47.Part0 = Part21
+Weld47.Part1 = Part64
+Weld47.part1 = Part64
+Weld48.Name = "NeonPart"
+Weld48.Parent = Part21
+Weld48.C0 = CFrame.new(-0.377845764, -0.576958895, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld48.Part0 = Part21
+Weld48.Part1 = Part65
+Weld48.part1 = Part65
+Weld49.Name = "NeonParts"
+Weld49.Parent = Part21
+Weld49.C0 = CFrame.new(-0.436805725, -0.993028164, -0.00835514069, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld49.Part0 = Part21
+Weld49.Part1 = Part66
+Weld49.part1 = Part66
+Weld50.Name = "NeonParts"
+Weld50.Parent = Part21
+Weld50.C0 = CFrame.new(-0.436805725, -0.735228062, -0.475755692, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld50.Part0 = Part21
+Weld50.Part1 = Part67
+Weld50.part1 = Part67
+Weld51.Name = "Wedge"
+Weld51.Parent = Part21
+Weld51.C0 = CFrame.new(-0.409385681, -0.940039158, 0.000686645508, 0, 0, 1, 0, -1, 0, 1, 0, 0)
+Weld51.Part0 = Part21
+Weld51.Part1 = WedgePart68
+Weld51.part1 = WedgePart68
+Weld52.Name = "Part"
+Weld52.Parent = Part21
+Weld52.C0 = CFrame.new(-0.462882996, -0.59709549, -0.321131706, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld52.Part0 = Part21
+Weld52.Part1 = Part69
+Weld52.part1 = Part69
+Weld53.Name = "Part"
+Weld53.Parent = Part21
+Weld53.C0 = CFrame.new(-0.462882996, -0.56272769, -0.224404335, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld53.Part0 = Part21
+Weld53.Part1 = Part70
+Weld53.part1 = Part70
+Weld54.Name = "Part"
+Weld54.Parent = Part21
+Weld54.C0 = CFrame.new(-0.462882996, -0.551525354, 0.401765347, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld54.Part0 = Part21
+Weld54.Part1 = Part71
+Weld54.part1 = Part71
+Weld55.Name = "NeonParts"
+Weld55.Parent = Part21
+Weld55.C0 = CFrame.new(-0.436805725, -0.735228062, 0.473034859, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld55.Part0 = Part21
+Weld55.Part1 = Part72
+Weld55.part1 = Part72
+Weld56.Name = "Part"
+Weld56.Parent = Part21
+Weld56.C0 = CFrame.new(-0.462882996, -0.59297514, -0.0690193176, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld56.Part0 = Part21
+Weld56.Part1 = Part73
+Weld56.part1 = Part73
+Weld57.Name = "NeonPart"
+Weld57.Parent = Part21
+Weld57.C0 = CFrame.new(-0.462882996, -0.46215415, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld57.Part0 = Part21
+Weld57.Part1 = Part74
+Weld57.part1 = Part74
+Weld58.Name = "NeonPart"
+Weld58.Parent = Part21
+Weld58.C0 = CFrame.new(-0.184211731, -0.813579321, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld58.Part0 = Part21
+Weld58.Part1 = Part75
+Weld58.part1 = Part75
+Part59.Name = "NeonPart"
+Part59.Parent = Model0
+Part59.CFrame = CFrame.new(-122.630577, 2.0205164, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part59.Position = Vector3.new(-122.6305770874, 2.0205163955688, -8.1400003433228)
+Part59.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part59.Size = Vector3.new(0.44527021050453, 0.061868578195572, 1.0614674091339)
+Part59.BottomSurface = Enum.SurfaceType.Smooth
+Part59.BrickColor = BrickColor.new("Electric blue")
+Part59.Material = Enum.Material.Neon
+Part59.TopSurface = Enum.SurfaceType.Smooth
+Part59.brickColor = BrickColor.new("Electric blue")
+Part60.Name = "NeonPart"
+Part60.Parent = Model0
+Part60.CFrame = CFrame.new(-122.81855, 2.07472587, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part60.Position = Vector3.new(-122.81855010986, 2.0747258663177, -8.1400003433228)
+Part60.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part60.Size = Vector3.new(0.06933481991291, 0.17028753459454, 1.0614674091339)
+Part60.BottomSurface = Enum.SurfaceType.Smooth
+Part60.BrickColor = BrickColor.new("Electric blue")
+Part60.Material = Enum.Material.Neon
+Part60.TopSurface = Enum.SurfaceType.Smooth
+Part60.brickColor = BrickColor.new("Electric blue")
+Part61.Name = "NeonPart"
+Part61.Parent = Model0
+Part61.CFrame = CFrame.new(-122.883308, 2.29948831, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part61.Position = Vector3.new(-122.88330841064, 2.2994883060455, -8.1400003433228)
+Part61.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part61.Size = Vector3.new(0.17039643228054, 0.073639966547489, 1.0614674091339)
+Part61.BottomSurface = Enum.SurfaceType.Smooth
+Part61.BrickColor = BrickColor.new("Electric blue")
+Part61.Material = Enum.Material.Neon
+Part61.TopSurface = Enum.SurfaceType.Smooth
+Part61.brickColor = BrickColor.new("Electric blue")
+Part62.Name = "NeonPart"
+Part62.Parent = Model0
+Part62.CFrame = CFrame.new(-122.909302, 2.53630233, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part62.Position = Vector3.new(-122.90930175781, 2.5363023281097, -8.1400003433228)
+Part62.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part62.Size = Vector3.new(0.50601989030838, 0.073639966547489, 1.0614674091339)
+Part62.BottomSurface = Enum.SurfaceType.Smooth
+Part62.BrickColor = BrickColor.new("Electric blue")
+Part62.Material = Enum.Material.Neon
+Part62.TopSurface = Enum.SurfaceType.Smooth
+Part62.brickColor = BrickColor.new("Electric blue")
+Part63.Parent = Model0
+Part63.CFrame = CFrame.new(-122.812614, 3.39101863, -8.14000034, -0.707106709, -0.707106709, 0, 0.707106709, -0.707106709, 0, 0, 0, 1)
+Part63.Orientation = Vector3.new(0, 0, 135)
+Part63.Position = Vector3.new(-122.81261444092, 3.3910186290741, -8.1400003433228)
+Part63.Rotation = Vector3.new(0, 0, 135)
+Part63.Color = Color3.new(0.105882, 0.164706, 0.207843)
+Part63.Size = Vector3.new(0.040053829550743, 0.2205224186182, 1.14888215065)
+Part63.BottomSurface = Enum.SurfaceType.Smooth
+Part63.BrickColor = BrickColor.new("Black")
+Part63.Material = Enum.Material.Glass
+Part63.TopSurface = Enum.SurfaceType.Smooth
+Part63.brickColor = BrickColor.new("Black")
+Part64.Parent = Model0
+Part64.CFrame = CFrame.new(-123.214256, 2.32720685, -7.97323275, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part64.Position = Vector3.new(-123.21425628662, 2.3272068500519, -7.9732327461243)
+Part64.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part64.Size = Vector3.new(0.18146772682667, 0.080711215734482, 0.55014514923096)
+Part64.BottomSurface = Enum.SurfaceType.Smooth
+Part64.BrickColor = BrickColor.new("Electric blue")
+Part64.Material = Enum.Material.Neon
+Part64.TopSurface = Enum.SurfaceType.Smooth
+Part64.brickColor = BrickColor.new("Electric blue")
+Part65.Name = "NeonPart"
+Part65.Parent = Model0
+Part65.CFrame = CFrame.new(-123.129219, 2.42149758, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part65.Position = Vector3.new(-123.12921905518, 2.4214975833893, -8.1400003433228)
+Part65.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part65.Size = Vector3.new(0.066172525286674, 0.18135507404804, 1.0614674091339)
+Part65.BottomSurface = Enum.SurfaceType.Smooth
+Part65.BrickColor = BrickColor.new("Electric blue")
+Part65.Material = Enum.Material.Neon
+Part65.TopSurface = Enum.SurfaceType.Smooth
+Part65.brickColor = BrickColor.new("Electric blue")
+Part66.Name = "NeonParts"
+Part66.Parent = Model0
+Part66.CFrame = CFrame.new(-123.188179, 2.00542831, -8.14835548, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part66.Position = Vector3.new(-123.18817901611, 2.005428314209, -8.1483554840088)
+Part66.Color = Color3.new(0.0156863, 0.686275, 0.92549)
+Part66.Size = Vector3.new(0.077872708439827, 0.076368346810341, 0.93804854154587)
+Part66.BottomSurface = Enum.SurfaceType.Smooth
+Part66.BrickColor = BrickColor.new("Cyan")
+Part66.Material = Enum.Material.Glass
+Part66.TopSurface = Enum.SurfaceType.Smooth
+Part66.brickColor = BrickColor.new("Cyan")
+Part67.Name = "NeonParts"
+Part67.Parent = Model0
+Part67.CFrame = CFrame.new(-123.188179, 2.26322842, -8.61575603, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part67.Position = Vector3.new(-123.18817901611, 2.2632284164429, -8.6157560348511)
+Part67.Color = Color3.new(0.0156863, 0.686275, 0.92549)
+Part67.Size = Vector3.new(0.078754469752312, 0.59196835756302, 0.07195383310318)
+Part67.BottomSurface = Enum.SurfaceType.Smooth
+Part67.BrickColor = BrickColor.new("Cyan")
+Part67.Material = Enum.Material.Glass
+Part67.TopSurface = Enum.SurfaceType.Smooth
+Part67.brickColor = BrickColor.new("Cyan")
+WedgePart68.Parent = Model0
+WedgePart68.CFrame = CFrame.new(-123.160759, 2.05841732, -8.1393137, 0, 0, 1, 0, -1, 0, 1, 0, 0)
+WedgePart68.Orientation = Vector3.new(0, 90, 180)
+WedgePart68.Position = Vector3.new(-123.16075897217, 2.0584173202515, -8.1393136978149)
+WedgePart68.Rotation = Vector3.new(180, 90, 0)
+WedgePart68.Color = Color3.new(0.388235, 0.372549, 0.384314)
+WedgePart68.Size = Vector3.new(1.0499390363693, 0.21409341692924, 0.24129572510719)
+WedgePart68.BottomSurface = Enum.SurfaceType.Smooth
+WedgePart68.BrickColor = BrickColor.new("Dark stone grey")
+WedgePart68.Material = Enum.Material.DiamondPlate
+WedgePart68.brickColor = BrickColor.new("Dark stone grey")
+Part69.Parent = Model0
+Part69.CFrame = CFrame.new(-123.214256, 2.40136099, -8.46113205, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part69.Position = Vector3.new(-123.21425628662, 2.4013609886169, -8.4611320495605)
+Part69.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part69.Size = Vector3.new(0.18146772682667, 0.15029263496399, 0.086958110332489)
+Part69.BottomSurface = Enum.SurfaceType.Smooth
+Part69.BrickColor = BrickColor.new("Electric blue")
+Part69.Material = Enum.Material.Neon
+Part69.TopSurface = Enum.SurfaceType.Smooth
+Part69.brickColor = BrickColor.new("Electric blue")
+Part70.Parent = Model0
+Part70.CFrame = CFrame.new(-123.214256, 2.43572879, -8.36440468, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part70.Position = Vector3.new(-123.21425628662, 2.4357287883759, -8.3644046783447)
+Part70.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part70.Size = Vector3.new(0.18146772682667, 0.081557504832745, 0.38923978805542)
+Part70.BottomSurface = Enum.SurfaceType.Smooth
+Part70.BrickColor = BrickColor.new("Electric blue")
+Part70.Material = Enum.Material.Neon
+Part70.TopSurface = Enum.SurfaceType.Smooth
+Part70.brickColor = BrickColor.new("Electric blue")
+Part71.Parent = Model0
+Part71.CFrame = CFrame.new(-123.214256, 2.44693112, -7.738235, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part71.Position = Vector3.new(-123.21425628662, 2.4469311237335, -7.7382349967957)
+Part71.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part71.Size = Vector3.new(0.18146772682667, 0.32015943527222, 0.080149635672569)
+Part71.BottomSurface = Enum.SurfaceType.Smooth
+Part71.BrickColor = BrickColor.new("Electric blue")
+Part71.Material = Enum.Material.Neon
+Part71.TopSurface = Enum.SurfaceType.Smooth
+Part71.brickColor = BrickColor.new("Electric blue")
+Part72.Name = "NeonParts"
+Part72.Parent = Model0
+Part72.CFrame = CFrame.new(-123.188179, 2.26322842, -7.66696548, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part72.Position = Vector3.new(-123.18817901611, 2.2632284164429, -7.6669654846191)
+Part72.Color = Color3.new(0.0156863, 0.686275, 0.92549)
+Part72.Size = Vector3.new(0.078754469752312, 0.59196835756302, 0.07195383310318)
+Part72.BottomSurface = Enum.SurfaceType.Smooth
+Part72.BrickColor = BrickColor.new("Cyan")
+Part72.Material = Enum.Material.Glass
+Part72.TopSurface = Enum.SurfaceType.Smooth
+Part72.brickColor = BrickColor.new("Cyan")
+Part73.Parent = Model0
+Part73.CFrame = CFrame.new(-123.214256, 2.40548134, -8.20901966, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part73.Position = Vector3.new(-123.21425628662, 2.405481338501, -8.2090196609497)
+Part73.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part73.Size = Vector3.new(0.18146772682667, 0.14205157756805, 0.078574009239674)
+Part73.BottomSurface = Enum.SurfaceType.Smooth
+Part73.BrickColor = BrickColor.new("Electric blue")
+Part73.Material = Enum.Material.Neon
+Part73.TopSurface = Enum.SurfaceType.Smooth
+Part73.brickColor = BrickColor.new("Electric blue")
+Part74.Name = "NeonPart"
+Part74.Parent = Model0
+Part74.CFrame = CFrame.new(-123.214256, 2.53630233, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part74.Position = Vector3.new(-123.21425628662, 2.5363023281097, -8.1400003433228)
+Part74.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part74.Size = Vector3.new(0.18146772682667, 0.073639966547489, 1.0614674091339)
+Part74.BottomSurface = Enum.SurfaceType.Smooth
+Part74.BrickColor = BrickColor.new("Electric blue")
+Part74.Material = Enum.Material.Neon
+Part74.TopSurface = Enum.SurfaceType.Smooth
+Part74.brickColor = BrickColor.new("Electric blue")
+Part75.Name = "NeonPart"
+Part75.Parent = Model0
+Part75.CFrame = CFrame.new(-122.935585, 2.18487716, -8.14000034, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part75.Position = Vector3.new(-122.93558502197, 2.1848771572113, -8.1400003433228)
+Part75.Color = Color3.new(0.0352941, 0.537255, 0.811765)
+Part75.Size = Vector3.new(0.067874059081078, 0.19267594814301, 1.0614674091339)
+Part75.BottomSurface = Enum.SurfaceType.Smooth
+Part75.BrickColor = BrickColor.new("Electric blue")
+Part75.Material = Enum.Material.Neon
+Part75.TopSurface = Enum.SurfaceType.Smooth
+Part75.brickColor = BrickColor.new("Electric blue")
+--requirements for EzEffects (the model with the emitter inside.)
+EffectModel = Instance.new("Model")
+Part6773 = Instance.new("Part")
+Part677 = Instance.new("Part")
+Weld447 = Instance.new("Weld")
+Folder4 = Instance.new("Folder")
+EffectModel.Name = "effect02arm"
+EffectModel.Parent = mas
+Part6773.Name = "FakeArm"
+Part6773.Parent = EffectModel
+Part6773.CFrame = CFrame.new(-113.599998, 0.500003994, -9.09999847, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part6773.Position = Vector3.new(-113.59999847412, 0.5000039935112, -9.0999984741211)
+Part6773.Color = Color3.new(0.388235, 0.372549, 0.384314)
+Part6773.Transparency = 1
+Part6773.Size = Vector3.new(1, 2, 1)
+Part6773.BottomSurface = Enum.SurfaceType.Smooth
+Part6773.BrickColor = BrickColor.new("Dark stone grey")
+Part6773.Material = Enum.Material.Glass
+Part6773.TopSurface = Enum.SurfaceType.Smooth
+Part6773.brickColor = BrickColor.new("Dark stone grey")
+Part677.Name = "Emitter"
+Part677.Parent = EffectModel
+Part677.CFrame = CFrame.new(-113.599998, -0.549995959, -9.09999847, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part677.Position = Vector3.new(-113.59999847412, -0.54999595880508, -9.0999984741211)
+Part677.Color = Color3.new(0, 0, 0)
+Part677.Transparency = 1
+Part677.Size = Vector3.new(0.099999964237213, 0.10000000149012, 0.099999964237213)
+Part677.BottomSurface = Enum.SurfaceType.Smooth
+Part677.BrickColor = BrickColor.new("Really black")
+Part677.Material = Enum.Material.Glass
+Part677.TopSurface = Enum.SurfaceType.Smooth
+Part677.brickColor = BrickColor.new("Really black")
+Weld447.Name = "FakeArm"
+Weld447.Parent = Part677
+Weld447.C0 = CFrame.new(0, 1.04999995, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld447.Part0 = Part677
+Weld447.Part6773 = Part6773
+Weld447.Part6773 = Part6773
+Folder4.Name = "EffectParts"
+Folder4.Parent = EffectModel
+
+spawn(function()
+	Part6773.CFrame = owner.Character["Right Arm"].CFrame
+	local weld = Instance.new("Weld")
+	weld.Parent = Part6773
+	weld.Part0 = weld.Parent
+	weld.Part1 = owner.Character["Right Arm"]
+	weld.C0 = owner.Character["Right Arm"].CFrame:ToObjectSpace(Part6773.CFrame)
+end)
+
+--functions from EzEffects
+function effect02(CFrameMovement,Parent,Part,Brick_Color,TypeENUM,Tween_Brick_Color,Transparency,Tween_Transparency)
+	local ts = game:GetService("TweenService")
+	local goingto = true 
+
+	--autofills some select variables
+
+	if CFrameMovement == nil then
+		CFrameMovement = true
+	end
+	--actual coding
+	local mas = Parent
+	local Part0 = Instance.new("SpawnLocation")
+	local SpecialMesh1 = Instance.new("SpecialMesh")
+	pcall(function()
+		Part0.Decal.Parent = game.Lighting
+	end)
+
+	spawn(function()
+		while true do
+			wait(0.009)
+			if goingto == true and CFrameMovement == true then
+				local inf3 = TweenInfo.new(
+					0.7,
+					Enum.EasingStyle.Sine,
+					Enum.EasingDirection.Out
+				)
+
+				local goals3 = {
+					CFrame = Part.CFrame
+				}
+
+				local tween3 = ts:Create(Part0,inf3,goals3)
+				tween3:Play()
+			elseif goingto == false and CFrameMovement == false then
+				break
+			end
+		end
+	end)
+	Part0.TeamColor = BrickColor.new("Really red")
+	Part0.Parent = mas
+	Part0.CanCollide = false
+	Part0.CFrame = CFrame.new(-136.899994, 0.500003994, -3.70000005, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+	Part0.Position = Part.Position
+	Part0.Orientation = Vector3.new(math.random(-360,360),math.random(-360,360),math.random(-360,360))
+	Part0.BrickColor = Brick_Color
+	Part0.Size = Vector3.new(4, 0.39999997615814, 0.19999992847443)
+	Part0.BottomSurface = Enum.SurfaceType.Smooth
+	Part0.Material = Enum.Material.Neon
+	Part0.TopSurface = Enum.SurfaceType.Smooth
+	spawn(function()
+		Part0.CFrame = Part.CFrame
+		local weld = Instance.new("Weld")
+		weld.Parent = Part0
+		weld.Part0 = Part0
+		weld.Part1 = Part
+		weld.C0 = Part.CFrame:ToObjectSpace(Part0.CFrame)
+	end)
+	SpecialMesh1.Parent = Part0
+	SpecialMesh1.MeshType = TypeENUM
+
+	local inf = TweenInfo.new(
+		1,
+		Enum.EasingStyle.Sine,
+		Enum.EasingDirection.Out
+	)
+
+	local goals = {
+		Size = Vector3.new(0.008, 0.39999997615814, 0.19999992847443),
+		BrickColor = Tween_Brick_Color
+	}
+
+	local tween = ts:Create(Part0,inf,goals)
+	tween:Play()
+	spawn(function()
+		wait(.6)
+		local inf2 = TweenInfo.new(
+			0.4,
+			Enum.EasingStyle.Sine,
+			Enum.EasingDirection.Out
+		)
+
+		local goals2 = {
+			Transparency = Transparency
+		}
+
+		local tween2 = ts:Create(Part0,inf2,goals2)
+		tween2:Play()
+	end)
+	spawn(function()
+		wait(1)
+		goingto = false
+		Part0.Parent = game.Lighting
+	end)
+end
+
+--other functions
+
+spawn(function()
+	Part21.CFrame = owner.Character["Right Arm"].CFrame
+	local weld = Instance.new("Weld")
+	weld.Parent = Part21
+	weld.Part0 = Part21
+	weld.Part1 = owner.Character["Right Arm"]
+	weld.C0 = owner.Character["Right Arm"].CFrame:ToObjectSpace(Part21.CFrame)
+end)
+spawn(function()
+	while true do
+		wait(.01)
+		Part75.BrickColor = BrickColor.Random()
+		for i,v in pairs(Model0:GetChildren()) do
+			if v.Name == "NeonParts" or v.Name == "NeonPart" then
+				v.BrickColor = Part75.BrickColor
+			end
+		end
+	end
+end)
+
+local defaults = {
+	LeftHip = owner.Character.Torso["Left Hip"].C0,
+	RightHip = owner.Character.Torso["Right Hip"].C0,
+	LeftShoulder = owner.Character.Torso["Left Shoulder"].C0,
+	RightShoulder = owner.Character.Torso["Right Shoulder"].C0,
+	Neck = owner.Character.Torso["Neck"].C0,
+	RootJoint = owner.Character.HumanoidRootPart["RootJoint"].C0
+}
+
+local current = "Idle"
+
+owner.Character.Animate:Destroy()
+
+spawn(function()
+	while true do
+		wait(0.005)
+		if current == "Idle" then
+			local weld6 = owner.Character.HumanoidRootPart["RootJoint"]
+			weld6.C0 = defaults.RootJoint*CFrame.new(0, 0, 3.211) * CFrame.Angles(math.rad(-10.027), 0, 0)
+			local weld5 = owner.Character.Torso["Left Hip"]
+			weld5.C0 = defaults.LeftHip*CFrame.new(0.013, 0.02, 0) * CFrame.Angles(0, 0, math.rad(10.084))
+			local weld4 = owner.Character.Torso["Right Shoulder"]
+			weld4.C0 = defaults.RightShoulder*CFrame.Angles(math.rad(90.012), math.rad(64.973), math.rad(4.927))
+			local weld3 = owner.Character.Torso["Left Shoulder"]
+			weld3.C0 = defaults.LeftShoulder*CFrame.new(-0.363, 0.199, 0) * CFrame.Angles(math.rad(89.21), math.rad(-32.487), math.rad(-0.229))
+			local weld2 = owner.Character.Torso["Right Hip"]
+			weld2.C0 = defaults.RightHip*CFrame.new(0.609, 0.395, 0) * CFrame.Angles(0, 0, math.rad(-10.141))
+			local weld = owner.Character.Torso.Neck
+			weld.C0 = defaults.Neck*CFrame.new(0, 0, 0.023) * CFrame.Angles(math.rad(10.027), 0, 0)
+		end
+
+		if current ~= "Idle" then
+			local weld6 = owner.Character.HumanoidRootPart["RootJoint"]
+			weld6.C0 = defaults.RootJoint*CFrame.new(0, 0, 3.211) * CFrame.Angles(math.rad(44.977), 0, 0)
+			local weld5 = owner.Character.Torso["Left Hip"]
+			weld5.C0 = defaults.LeftHip*CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(50.019))
+			local weld4 = owner.Character.Torso["Right Shoulder"]
+			weld4.C0 = defaults.RightShoulder*CFrame.new(0.035, -0.035, 0) * CFrame.Angles(math.rad(-0.057), math.rad(0.057), math.rad(-50.019))
+			local weld3 = owner.Character.Torso["Left Shoulder"]
+			weld3.C0 = defaults.LeftShoulder*CFrame.new(-0.102, -0.102, 0) * CFrame.Angles(math.rad(-0.057), math.rad(-0.057), math.rad(45.092))
+			local weld2 = owner.Character.Torso["Right Hip"]
+			weld2.C0 = defaults.RightHip*CFrame.new(0.699, 0.699, 0) * CFrame.Angles(math.rad(-0.057), 0, math.rad(-35.008))
+			local weld = owner.Character.Torso.Neck
+			weld.C0 = defaults.Neck*CFrame.new(0, -0.001, 0.001) * CFrame.Angles(math.rad(-39.992), 0, 0)
+		end
+	end
+end)
+
+for i,charmesh in pairs(owner.Character:GetChildren()) do
+	if charmesh:IsA("CharacterMesh") then
+		charmesh:Destroy()
+	end
+end
+
+function iswalking(speed)
+	if speed > 1 then
+		current = "Walking"
+	else
+		current = "Idle"
+	end
+end
+
+owner.Character.Humanoid.Running:Connect(iswalking)
+
+local sound = Instance.new("Sound")
+sound.Parent = Part1
+sound.SoundId = "rbxassetid://4865063065"
+sound.Volume = 0.2
+sound.RollOffMaxDistance = 50
+sound.RollOffMinDistance = 50
+sound.Looped = true
+sound:Play()
+
+owner.Character.Humanoid.WalkSpeed = 50
+
+local remote01 = Instance.new("RemoteEvent")
+remote01.Name = "Event01"
+remote01.Parent = owner.Character
+
+local remote02 = Instance.new("RemoteEvent")
+remote02.Name = "Event02"
+remote02.Parent = owner.Character
+
+
+NLS([[
+local plr = game.Players.LocalPlayer
+
+local mouse = plr:GetMouse()
+
+local mousePos = mouse.Hit.p
+
+local exploEvent = owner.Character.Event01
+
+local exploEvent2 = owner.Character.Event02
+
+mouse.KeyDown:Connect(function(k)
+    if k == "e" then
+       exploEvent:FireServer(mousePos)
+    end
+    
+    if k == "r" then
+       exploEvent2:FireServer()
+    end
+end)
+]],owner.PlayerGui)
+
+local sound  = Instance.new("Sound",owner.Character.Head)
+sound.SoundId = "rbxassetid://642890855"
+sound.Volume = 2
+local rem = Instance.new("RemoteEvent", owner.Character)
+local debounce = false
+rem.Name = 'SKID'
+
+NLS("local rem = owner.Character.SKID local mouse = game:GetService'Players'.LocalPlayer:GetMouse() mouse.Button1Down:Connect(function() rem:FireServer(mouse.Hit.Position, mouse.Target) end)", owner.PlayerGui)
+
+
+rem.OnServerEvent:Connect(function(plr, pos, target)
+	if debounce == false then
+			local MAGNITUDE = (Part6773.CFrame * CFrame.new(0,1,7).Position - pos).Magnitude
+
+			if MAGNITUDE < 1000 then
+                --[[
+                				game:GetService'RunService'.Heartbeat:Connect(function()
+					if Part6773.Transparency <= 0 then
+						Part6773.Transparency = Part6773.Transparency + .05
+					end
+					if Part6773.Transparency == 1 then
+						Part6773.Transparency = 1
+					end
+				end)
+                ]]--
+
+				local Shot = Instance.new("Part", script)
+				Shot.Anchored = true
+				spawn(function()
+					while wait() do
+						Shot.Color = Part6773.Color
+						Swait()
+					end
+				end)
+				Shot.Material = 'Neon'
+				Shot.Shape = 'Block'
+				Shot.CFrame = CFrame.new(Part6773.Position, pos) * CFrame.Angles(0,math.rad(90),0)
+				Shot.Position = Shot.Position:Lerp(pos, .5)
+				Shot.Name = 'SKIDSHOT'
+				local RS = owner.Character.Torso["Right Shoulder"]
+				local tweenservice = game:GetService("TweenService")
+				local rarmuptween = tweenservice:Create(RS,TweenInfo.new(0.3,Enum.EasingStyle.Sine,Enum.EasingDirection.Out),{C0 = RS.C0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(100))})
+				local rarmdowntween = tweenservice:Create(RS,TweenInfo.new(0.5,Enum.EasingStyle.Back,Enum.EasingDirection.Out),{C0 = RS.C0 * CFrame.Angles(math.rad(0), math.rad(0), math.rad(0))})
+				rarmuptween:Play()
+				sound:Play()
+				Shot.CanCollide = false
+				Shot.Size = Vector3.new(MAGNITUDE,.5,.5)
+				game:GetService('Debris'):AddItem(Shot, 1)
+
+
+				game:GetService'RunService'.Heartbeat:Connect(function()
+					Shot.Size = Shot.Size + Vector3.new(0,.05,.05)
+					Shot.Transparency = Shot.Transparency + .05
+				end)
+
+
+
+				if target.Parent:FindFirstChildWhichIsA("Humanoid") ~= nil and target.Name ~= 'SKIDSHOT' then
+					for i,v in pairs(target.Parent:GetDescendants()) do
+						if v.ClassName == 'Part' or v.ClassName == 'MeshPart' then
+							game:GetService'Debris':AddItem(v.Parent, 3)
+							v.Anchored = true
+							v.CanCollide = false
+							v.Parent = script
+							game:GetService("TweenService"):Create(v, TweenInfo.new(3), {CFrame = CFrame.new(v.Position + Vector3.new(0,5,5)), Transparency = 1}):Play()
+
+						end
+					end
+				end
+				wait(0.5)
+				rarmdowntween:Play()
+				wait(1)
+				debounce = false
+			end
+		end
+end)
+
+spawn(function()
+	while true do
+		task.wait()
+		effect02(true,owner.Character,Part6773,BrickColor.new("Bright blue"),Enum.MeshType.Sphere,BrickColor.new("Really black"),0.3,1)
+	end
+end)
+
+print("Completed! No Errors Detected. --Basically this is here for when i was testing for errors and i forgot to remove this message lol")
+
+
