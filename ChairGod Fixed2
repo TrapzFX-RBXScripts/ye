@@ -531,7 +531,7 @@ function effect02(CFrameMovement,Parent,Part,Brick_Color,TypeENUM,Tween_Brick_Co
  
 	local goals = {
 		Size = Vector3.new(0.008, 0.39999997615814, 0.19999992847443),
-		BrickColor = Tween_Brick_Color
+		Color = Tween_Brick_Color
 	}
  
 	local tween = ts:Create(Part0,inf,goals)
@@ -580,9 +580,9 @@ mouse.KeyDown:Connect(function(k)
 end)
 ]],owner.PlayerGui)
  
-local sound  = Instance.new("Sound",Part677)
-sound.SoundId = "rbxassetid://642890855"
-sound.Volume = 2
+local sound2  = Instance.new("Sound",Part677)
+sound2.SoundId = "rbxassetid://642890855"
+sound2.Volume = 2
 local rem = Instance.new("RemoteEvent", owner.Character)
 local debounce = false
 rem.Name = 'SKID'
@@ -619,7 +619,7 @@ rem.OnServerEvent:Connect(function(plr, pos, target)
 				Shot.CFrame = CFrame.new(Part677.Position, pos) * CFrame.Angles(0,math.rad(90),0)
 				Shot.Position = Shot.Position:Lerp(pos, .5)
 				Shot.Name = 'SKIDSHOT'
-				sound:Play()
+				sound2:Play()
 				Shot.CanCollide = false
 				Shot.Size = Vector3.new(MAGNITUDE,.5,.5)
 				game:GetService('Debris'):AddItem(Shot, 1)
@@ -655,7 +655,7 @@ end)
 spawn(function()
 	while true do
 		task.wait()
-		effect02(true,owner.Character,Part677,BrickColor.new("Bright blue"),Enum.MeshType.Sphere,BrickColor.new("Really black"),0.3,1)
+		effect02(true,owner.Character,Part677,BrickColor.new("Bright blue"),Enum.MeshType.Sphere,Color3.new(0,0,0),0.3,1)
 	end
 end)
  
